@@ -20,3 +20,6 @@ python manage.py startapp nom_de_votre_app
 
 dire que l'app fait partie du projet
 ajouter la nouvelle app dans INSTALLED_APPS dans le fichier settings.py du projet
+
+install Pillow
+install autre trucs 

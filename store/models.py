@@ -17,3 +17,6 @@ class Products(models.Model):
     stock = models.IntegerField(default=0)
     description = models.TextField(blank=True)
     thumbnail = models.ImageField(upload_to="products", blank=True, null=True)
+
+    def __str__(self) -> str:
+        return self.name
